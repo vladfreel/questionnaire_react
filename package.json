@@ -2,7 +2,11 @@
   "name": "questionnaire_react",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "http-proxy-middleware": "^0.19.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-scripts": "2.1.5"
