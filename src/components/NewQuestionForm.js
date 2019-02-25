@@ -4,14 +4,14 @@ const NewQuestionForm = ({onNewQuestion = f => f}) => {
     let content;
     const submit = e => {
         e.preventDefault();
-        onNewQuestion(this.content.value);
+        onNewQuestion(content.value);
         content.value = '';
         content.focus()
     };
 
     return (
         <form onSubmit={submit}>
-            <input  ref={input => this.content = input}
+            <input  ref={input => content = input}
                     type="text"
                     placeholder="Title..." required />
             <button>Add List</button>

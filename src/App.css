@@ -23,6 +23,21 @@
   color: #61dafb;
 }
 
+.answers{
+  margin-top: 30px;
+}
+
+.single-answer{
+  margin-top: 10px;
+}
+
+.questions-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
